@@ -63,3 +63,5 @@ var_dump(my_str_contains("abc", ""));
 var_dump(my_str_contains("abc", "abcd"));       
 ?>
 
+
+
