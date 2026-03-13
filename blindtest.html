@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blind Test - Choix multiples</title>
+  <link rel="stylesheet" href="blindtest.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>🎵 Blind Test Disney 🎵</h1>
+      <a href="accueil.html"> Retour à la page 1</a>
+    </nav>
+  </header>
+  <div id="game">
+  <div id="player" style="margin-bottom:8px; color: #fff; font-weight:700"></div>
+  <button id="play-btn"> Jouer un extrait</button>
+  <button id="stop-btn">Stop</button>
+ 
+  <audio id="audio" controls></audio>
+  
+  <div id="countdown" aria-live="polite" style="font-size:18px; font-weight:700; margin-top:8px"></div>
+ 
+    <div id="choices" class="choices"></div>
+ 
+    <div id="result"></div>
+    <div id="score">Score : <span id="score-value">0</span></div>
+  </div>
+ 
+  <script src="blindtest.js"></script>
+</body>
+</html>
+ 
+ 
